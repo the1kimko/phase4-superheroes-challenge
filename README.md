@@ -12,7 +12,7 @@ This project implements a simple API for managing heroes, powers, and their rela
 ## Project Structure
 
 - `app.py`: Main Flask app configuration and routes initialization.
-- `models.py`: SQLAlchemy models for Hero, Power, and HeroPower.
+- `models`: Having the respective SQLAlchemy models for Hero, Power, and HeroPower.
 - `routes.py`: API routes for creating and managing heroes, powers, and relationships.
 - `seed.py`: Script for seeding the database with sample data.
 - `debug.py`: Script for debugging database models and relationships.
